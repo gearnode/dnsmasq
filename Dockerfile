@@ -16,3 +16,7 @@ RUN apt-get update && \
 FROM ubuntu:18.04
 
 COPY --from=builder /usr/local/sbin/dnsmasq /usr/local/sbin/dnsmasq
+
+EXPOSE 53 53/udp
+
+ENTRYPOINT ["dnsmasq", "-k"]
