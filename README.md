@@ -1,5 +1,7 @@
 # dnsmasq docker image
 
+![dnsmasq logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Dnsmasq_icon.svg/1200px-Dnsmasq_icon.svg.png)
+
 A simple docker receipt to create dnsmasq image by building it
 from source.
 
